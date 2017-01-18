@@ -139,3 +139,6 @@ body pre code.smallText {
   font-size: .75em;
 }
 
+em {
+  font-style: italic;
+}
