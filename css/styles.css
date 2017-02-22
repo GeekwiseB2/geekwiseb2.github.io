@@ -146,3 +146,32 @@ li>ul {
 em {
   font-style: italic;
 }
+
+/*=========NAVBAR============*/
+
+.navbar-default {
+  background-color: #24292e;
+  color: #C8C9CB;
+  padding: 5px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 5px;
+}
+
+/*===========MAIN CONTENT=============*/
+
+.container.content {
+  margin-top: 75px;
+}
