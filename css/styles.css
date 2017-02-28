@@ -175,3 +175,8 @@ em {
 .container.content {
   margin-top: 75px;
 }
+
+/*=========MARKERS==========*/
+.subpoint {
+  font-size: 24px;
+}
