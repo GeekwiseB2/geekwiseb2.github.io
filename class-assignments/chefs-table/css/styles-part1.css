@@ -1,0 +1,45 @@
+body {
+    position: relative;
+}
+
+.navbar-default {
+    z-index: 999;
+}
+
+.navbar-brand {
+    padding:10px;
+}
+
+.navbar-brand h1 {
+    font-size:24px;
+    margin:0;
+}
+
+.affix {
+    top:0;
+    width: 100%;
+}
+
+#home-section {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    background: url('../img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-section h1, #home-section p {
+    color:#ffffff;
+}
+
+#reservation-section {
+    background: #eeeeee;
+}
+
+@media only screen and (min-width : 992px) {
+    #home-section {
+        height:500px;
+    }
+}

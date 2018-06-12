@@ -1,0 +1,246 @@
+h1, h2, h3, h4, h5, h6 {
+    color:#444444;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    margin-bottom:30px;
+}
+
+p {
+    font-size:14px;
+    line-height: 24px;
+    color:#666666;
+    font-family: 'PT Mono', monospace;
+}
+
+body {
+    position: relative;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-family: 'PT Mono', monospace;
+}
+
+.btn-primary {
+    background:transparent;
+    border-color:#ffffff;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background:#ffffff;
+    border-color:#ffffff;
+    color:#222222;
+    transition: all .15s ease-out;
+}
+
+.navbar-default {
+    background: #ffffff;
+    border-radius: 0;
+    z-index: 999;
+    border:0;
+}
+
+.navbar-default.affix {
+    background:#222222;
+    transition: background .25s ease-out;
+}
+
+.navbar-default .navbar-toggle {
+    border:none;
+}
+
+.navbar-default.affix .navbar-toggle {
+    border:none;
+    color:#ffffff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background:transparent;
+}
+
+.navbar-collapse {
+    border:none;
+}
+
+.navbar-brand {
+    padding:10px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size:24px;
+    margin:0;
+}
+
+.navbar-default.affix .navbar-brand h1 {
+    color:#ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background:transparent;
+    text-decoration: underline;
+    color:#ffffff;
+}
+
+.navbar-default.affix .navbar-nav>.active>a {
+    color:#ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'PT Mono', monospace;
+    color:#222222;
+}
+
+.navbar-default.affix .navbar-nav>li>a {
+    font-family: 'PT Mono', monospace;
+    color:#888888;
+}
+
+.affix {
+    top:0;
+    left: 0;
+    right:0;
+}
+
+#home-section {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    background: url('../img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-section h1, #home-section p {
+    color:#ffffff;
+    margin-bottom:20px;
+}
+
+#home-section .btn {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#about-section {
+    padding-top:60px;
+    padding-bottom:60px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-section {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.nav.nav-tabs>li>a {
+    padding:0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border:none;
+}
+
+.nav-tabs>li.active>a>img, .nav-tabs>li.active>a:focus>img, .nav-tabs>li.active>a:hover>img {
+    opacity: 1;
+}
+
+.nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    background: transparent;
+    border:none;
+}
+
+.nav-tabs {
+    border:none;
+    margin-top:60px;
+}
+
+.nav-tabs>li>a {
+    border:none;
+}
+
+.nav-tabs .active h3 {
+    text-decoration: underline;
+}
+
+.menu-tab {
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+.menu-tab li img.img-responsive {
+    max-width: 100%;
+    display: none;
+}
+
+.menu-page {
+    padding-top:30px;
+}
+
+.menu-page ul {
+    list-style: none;
+    padding-left:0;
+}
+
+.menu-page li {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.menu-inside-img {
+    margin-bottom:40px;
+}
+
+#reservation-section {
+    background: #eeeeee;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+#footer-section {
+    padding-top:20px;
+    padding-bottom:20px;
+    background: #222222;
+}
+
+@media only screen and (min-width : 992px) {
+    #home-section {
+        height:500px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .menu-tab li img.img-responsive {
+        display: block;
+        opacity: .8;
+    }
+
+    .menu-inside-img {
+        display: none;
+    }
+
+    #about-section {
+        padding-top:140px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .navbar-default {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+
+    .nav-tabs>li {
+        float: none;
+    }
+}
