@@ -1,0 +1,152 @@
+/* global styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-top:10px;
+}
+
+h2 {
+    font-size:2.2em;
+    line-height: 1.3em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size:1em;
+}
+
+.fab, .far, .fas {
+    font-size:30px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.color-text-white {
+    color:#ffffff;
+}
+
+/* nav */
+.navbar {
+    border-radius:0;
+    border:0;
+    margin-bottom:0;
+}
+
+.navbar-default {
+    background:#000000;
+}
+
+.navbar-brand {
+    padding-top:12px;
+}
+
+.navbar-brand h1 {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+    margin-top:0;
+    font-size:26px;
+    transition: color .1s ease-in;
+}
+
+.navbar-brand h1:hover {
+    color: #c72c72;
+}
+
+.nav-main-link.active-link {
+    color:#ffffff;
+}
+
+/* jumbotron */
+.home-jumbotron {
+    background-color:rgb(36, 151, 163);
+    margin-bottom:0px;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:40px;
+    display: flex;
+    align-items: center;
+}
+
+.second-section {
+    background:#030116;
+    padding-bottom:80px;
+    color:#ffffff;
+}
+
+.second-content {
+    margin-top:160px;
+    margin-bottom:100px;
+}
+
+.second-item {
+    text-align: center;
+}
+
+.quote-section {
+    padding-top:60px;
+    padding-bottom:60px;
+    background:#EFE655;
+}
+
+/* CONTACT PAGE */
+.contact-section {
+    padding-top:60px;
+    padding-bottom:60px;
+    background:#EFE655;
+}
+
+/* FOOTER */
+.footer-section {
+    background:#030116;
+    padding-top:60px;
+    padding-bottom:60px;
+    color:#ffffff;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-section a {
+    color:#c72c72;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color:#ffffff;
+}
+
+@media only screen and (min-width : 768px) {
+    .home-jumbotron {
+        min-height: calc(100vh - 50px);
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .home-jumbotron {
+        text-align: left;
+    }
+
+    .home-jumbotron-left {
+        padding-top:20px;
+    }
+
+    .second-item {
+        text-align: left;
+    }
+
+    .footer-social {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    .home-jumbotron-left {
+        padding-top:100px;
+    }
+
+    .second-content {
+        margin-bottom:100px;
+    }
+}
